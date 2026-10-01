@@ -43,7 +43,7 @@ const CourseCard = ({ course = {} }) => {
         <div className="card-actions justify-between items-center mt-4">
           <span className="text-2xl font-bold">${price}</span>
 
-          <Link to={`/courses/${id}`} className="btn btn-sm ">
+          <Link to={`/courses/${id}`} className="btn bg-gradient-to-r from-lime-300 to-lime-300 btn-sm text-black">
             Enroll Now
           </Link>
         </div>
